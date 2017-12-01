@@ -1,0 +1,7 @@
+#left-ear, #right-ear {
+  transition: all 1.5s linear;
+}
+
+#bear:hover #right-ear, #bear:hover #left-ear {
+  transform: translateY(-12px);
+}
