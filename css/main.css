@@ -5,3 +5,17 @@
 #bear:hover #right-ear, #bear:hover #left-ear {
   transform: translateY(-12px);
 }
+
+#left-eye, #right-eye {
+  animation: eyes 3s ease-in infinite alternate;
+}
+
+@keyframes eyes {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
